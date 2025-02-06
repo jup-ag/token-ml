@@ -2,3 +2,8 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+
+## Build generated
+build/
+DerivedData
+.swiftpm/

@@ -7,17 +7,13 @@ let package = Package(
         .iOS(.v17)
     ],
     products: [
-        .library(
-            name: "TokenML",
-            targets: ["TokenML"]
-        )
+        .library(name: "TokenML", targets: ["TokenML"])
     ],
     dependencies: [
     ],
     targets: [
         .target(
             name: "TokenML",
-            dependencies: [],
             resources: [
                 .process("Generated/Tokens.mlmodel")
             ]
