@@ -14,6 +14,7 @@ let package = Package(
     targets: [
         .target(
             name: "TokenML",
+            path: "TokenML",
             resources: [
                 .process("Generated/Tokens.mlmodel")
             ]
