@@ -2,7 +2,7 @@ import CoreML
 import Foundation
 
 public enum TokenML {
-    static let tokensModel: MLModel? = {
+    public static let tokensModel: MLModel? = {
         let configuration = MLModelConfiguration()
         configuration.computeUnits = .all
 
